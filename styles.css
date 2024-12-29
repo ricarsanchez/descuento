@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #333;
+  }
+  input[type="number"] {
+    width: 20%;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #ccc;
+  }
+  button {
+    width: 15%;
+    height: 40px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #444;
+  }
+  #resultados {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  #resultados p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
